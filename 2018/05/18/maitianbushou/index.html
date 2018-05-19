@@ -79,15 +79,18 @@
 
 
 
+<meta name="description" content="瞬间流溢的风光 顿悟终日不解的彷徨 拿走的被忘记 或者留下成为回忆">
 <meta name="keywords" content="iOS">
 <meta property="og:type" content="article">
 <meta property="og:title" content="maitianbushou">
 <meta property="og:url" content="http://yoursite.com/2018/05/18/maitianbushou/index.html">
 <meta property="og:site_name" content="烟雨闲清人自怜">
+<meta property="og:description" content="瞬间流溢的风光 顿悟终日不解的彷徨 拿走的被忘记 或者留下成为回忆">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-05-17T17:00:06.864Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="maitianbushou">
+<meta name="twitter:description" content="瞬间流溢的风光 顿悟终日不解的彷徨 拿走的被忘记 或者留下成为回忆">
 
 
 
@@ -303,6 +306,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/18/maitianbushou/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/18/maitianbushou/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -389,6 +402,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -417,7 +433,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">麦田捕手</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">瞬间流溢的风光 顿悟终日不解的彷徨 拿走的被忘记 或者留下成为回忆</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -639,6 +655,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'vTwSCYCpNeqFUvEhHki6Cviv-gzGzoHsz',
+        appKey: 'd2U7oCKWA1qBxOUVPq8v90GG',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
