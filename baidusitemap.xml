@@ -3,35 +3,29 @@
 
 
     
-    
-    
   <url>
-    <loc>http://yoursite.com/2018/05/18/maitianbushou/</loc>
-    <lastmod>2018-05-17T17:00:06.864Z</lastmod>
+    <loc>http://yoursite.com/2018/06/07/iOS%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2018-06-06T16:24:03.968Z</lastmod>
     <data>
         <display>
-        <title>maitianbushou</title>
-        <pubTime>2018-05-17T17:00:06.000Z</pubTime>
+        <title>iOS编程思想应用示例</title>
+        <pubTime>2018-06-06T16:15:35.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
+        <tag>Swift 4.1</tag>
+         
+        <tag>编程思想</tag>
+         
          
            
+             
+              <breadCrumb title="iOS Notes" url="http://yoursite.com/categories/iOS-Notes/"/>
+          
         </display>
     </data>
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2018/05/18/hello-world/</loc>
-    <lastmod>2018-05-17T16:58:18.473Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-05-17T16:58:18.473Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
 </urlset>
